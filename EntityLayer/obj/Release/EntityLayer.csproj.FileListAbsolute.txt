@@ -1,0 +1,12 @@
+C:\Users\Kagan\source\repos\MvcProje\EntityLayer\bin\Release\EntityLayer.dll.config
+C:\Users\Kagan\source\repos\MvcProje\EntityLayer\bin\Release\EntityLayer.dll
+C:\Users\Kagan\source\repos\MvcProje\EntityLayer\bin\Release\EntityLayer.pdb
+C:\Users\Kagan\source\repos\MvcProje\EntityLayer\bin\Release\EntityFramework.dll
+C:\Users\Kagan\source\repos\MvcProje\EntityLayer\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\Kagan\source\repos\MvcProje\EntityLayer\bin\Release\EntityFramework.xml
+C:\Users\Kagan\source\repos\MvcProje\EntityLayer\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\Kagan\source\repos\MvcProje\EntityLayer\obj\Release\EntityLayer.csprojAssemblyReference.cache
+C:\Users\Kagan\source\repos\MvcProje\EntityLayer\obj\Release\EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Kagan\source\repos\MvcProje\EntityLayer\obj\Release\EntityLayer.csproj.CopyComplete
+C:\Users\Kagan\source\repos\MvcProje\EntityLayer\obj\Release\EntityLayer.dll
+C:\Users\Kagan\source\repos\MvcProje\EntityLayer\obj\Release\EntityLayer.pdb

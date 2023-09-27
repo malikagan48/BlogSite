@@ -1,0 +1,61 @@
+﻿@model EntityLayer.Concrete.Contact
+
+@{
+    ViewBag.Title = "SendMassage";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+
+<div class="site-cover site-cover-sm same-height overlay single-page" style="background-image: url('/miniblog/images/img_4.jpg');">
+    <div class="container">
+        <div class="row same-height justify-content-center">
+            <div class="col-md-12 col-lg-10">
+                <div class="post-entry text-center">
+                    <h1 class="">Bize Ulaşın</h1>
+                    <p class="lead mb-4 text-white">Önerileriniz, talepleriniz, yorumlarda yaşadığınız problemler ve diğer bütün durumlar için bir mesaj uzağınızdayız.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="site-section bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-7 mb-5">
+
+                <form method="post" role="form" class="p-5 bg-white">
+
+                    <div>
+                        <input type="text" name="Name" class="form-control" id="Name" placeholder="Adınız" minlength="4" maxlength="20" data-msg="Lütfen en az 4 karekter giriniz"required />
+
+                    </div>
+                    <div class="row form-group">
+                        <input type="text" name="SurName" class="form-control" id="SurName" placeholder="Soyadınız" minlength="4" maxlength="20" data-msg="Lütfen en az 4 karekter giriniz"required />
+
+                    </div>
+                    <div class="row form-group">
+                        <input type="email" class="form-control" name="Mail" id="Mail" placeholder="Mail Adresiniz" data-rule="email" required />
+
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" name="Subject" id="Subject" placeholder="Konu" minlength="4" maxlength="20" data-msg="Lütfen en az 4 karekter giriniz"required />
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" name="Message" rows="5" minlength="50" maxlength="200" data-msg="Lütfen en az 4 karekter giriniz"required placeholder="Mesajınız"></textarea>
+                    </div>
+
+
+                    <div class="row form-group">
+                        <div class="col-md-12">
+                            <input type="submit" value="Mesajı Gönder" class="btn btn-primary py-2 px-4 text-white">
+                        </div>
+                    </div>
+
+                </form>
+            </div>
+
+        </div>
+    </div>
+</div>
+@Html.Action("Footer", "About")
